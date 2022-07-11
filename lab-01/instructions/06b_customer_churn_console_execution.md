@@ -87,7 +87,7 @@ Based on EDA, the data preparation script has been created. Among the 21 columns
 Navigate to Dataproc > Serverless > Batches and click on **+CREATE**
 
 <kbd>
-<img src=/images/image23.png />
+<img src=/lab-01/images/image23.png />
 </kbd>
 
 ### 4.2. Provide the details for the batch
@@ -123,11 +123,11 @@ Run PySpark Serverless Batch for Data Preparation
 <br>
 
 <kbd>
-<img src=/images/image25.png />
+<img src=/lab-01/images/image25.png />
 </kbd>
 
   <kbd>
-  <img src=/images/image26.png />
+  <img src=/lab-01/images/image26.png />
   </kbd>
 
 <br>
@@ -148,7 +148,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -160,7 +160,7 @@ To view the data in these tables -
 ```
 
 <kbd>
-<img src=/lab-01/images/image5.png />
+<img src=/lab-01/lab-01/images/image5.png />
 </kbd>
 
 ```
@@ -186,7 +186,7 @@ Repeat the same steps as above to submit another batch for model training.
 Navigate to Dataproc > Serverless > Batches and click on **+CREATE**
 
 <kbd>
-<img src=/images/image23.png />
+<img src=/lab-01/images/image23.png />
 </kbd>
 
 ### 5.2. Provide the details for the batch
