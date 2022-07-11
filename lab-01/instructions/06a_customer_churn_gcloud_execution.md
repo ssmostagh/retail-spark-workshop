@@ -44,7 +44,7 @@ The dataset contains the following features:
 ## 2. Solution Architecture
 
 <kbd>
-<img src=images/Flow_of_Resources.jpeg />
+<img src=retail-spark-workshop/lab-01/images/Flow_of_Resources.jpeg />
 </kbd>
 
 <br>
@@ -142,7 +142,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=retail-spark-workshop/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -160,7 +160,7 @@ To query the table -
 
 
 <kbd>
-<img src=/images/image5.png />
+<img src=retail-spark-workshop/lab-01/images/image5.png />
 </kbd>
 
 
@@ -205,7 +205,7 @@ To view the data in this table -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=retail-spark-workshop/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -218,7 +218,7 @@ To view the data in this table -
 **Note:** Edit all occurrences of <project_name> and <dataset_name> to match the values of the variables PROJECT_ID, and BQ_DATASET_NAME respectively
 
 <kbd>
-<img src=/images/image6.png />
+<img src=retail-spark-workshop/lab-01/images/image6.png />
 </kbd>
 
 
@@ -260,7 +260,7 @@ To view the data in this table -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=retail-spark-workshop/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -273,7 +273,7 @@ To view the data in this table -
 **Note:** Edit all occurrences of <project_name> and <dataset_name> to match the values of the variables PROJECT_ID, and BQ_DATASET_NAME respectively
 
 <kbd>
-<img src=/images/image7.png />
+<img src=retail-spark-workshop/lab-01/images/image7.png />
 </kbd>
 
 
@@ -290,11 +290,11 @@ Logs associated with the application can be found in the logging console under
 <br> You can also click on “View Logs” button on the Dataproc batches monitoring page to get to the logging page for the specific Spark job.
 
 <kbd>
-<img src=/images/image8.png />
+<img src=retail-spark-workshop/lab-01/images/image8.png />
 </kbd>
 
 <kbd>
-<img src=/images/image13.png />
+<img src=retail-spark-workshop/lab-01/images/image13.png />
 </kbd>
 
 <br>
@@ -306,11 +306,11 @@ To view the Persistent History server logs, click the 'View History Server' butt
 <br>
 
 <kbd>
-<img src=/images/image17.png />
+<img src=retail-spark-workshop/lab-01/images/image17.png />
 </kbd>
 
 <kbd>
-<img src=/images/image14.png />
+<img src=retail-spark-workshop/lab-01/images/image14.png />
 </kbd>
 
 <br>
