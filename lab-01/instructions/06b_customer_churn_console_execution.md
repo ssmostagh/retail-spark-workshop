@@ -160,7 +160,7 @@ To view the data in these tables -
 ```
 
 <kbd>
-<img src=/images/image5.png />
+<img src=/lab-01/images/image5.png />
 </kbd>
 
 ```
@@ -170,7 +170,7 @@ To view the data in these tables -
 <your_name_here>: _test_data table
 
 <kbd>
-<img src=/images/_test_data.png />
+<img src=/lab-01/images/_test_data.png />
 </kbd>
 
 **Note:** Edit all occurrences of <project_name> and <dataset_name> to match the values of the variables PROJECT_ID, and BQ_DATASET_NAME respectively
@@ -212,7 +212,7 @@ Run PySpark Serverless Batch for Data Preparation
 
 
 <kbd>
-<img src=/images/image18.png />
+<img src=/lab-01/images/image18.png />
 </kbd>
 
 <br>
@@ -230,7 +230,7 @@ To view the data in this table -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -246,7 +246,7 @@ To view the data in this table -
 
 
 <kbd>
-<img src=/images/image6.png />
+<img src=/lab-01/images/image6.png />
 </kbd>
 
 <br>
@@ -261,7 +261,7 @@ Repeat the same steps as above to submit another batch for model training.
 Navigate to Dataproc > Serverless > Batches and click on **+CREATE**
 
 <kbd>
-<img src=/images/image23.png />
+<img src=/lab-01/images/image23.png />
 </kbd>
 
 ### 6.2. Provide the details for the batch
@@ -287,7 +287,7 @@ Run PySpark Serverless Batch for Data Preparation
 
 
 <kbd>
-<img src=/images/image18.png />
+<img src=/lab-01/images/image18.png />
 </kbd>
 
 <br>
@@ -305,7 +305,7 @@ To view the data in this table -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -321,7 +321,7 @@ To view the data in this table -
 
 
 <kbd>
-<img src=/images/image7.png />
+<img src=/lab-01/images/image7.png />
 </kbd>
 
 <br>
@@ -337,11 +337,11 @@ Logs associated with the application can be found in the logging console under
 <br> You can also click on “View Logs” button on the Dataproc batches monitoring page to get to the logging page for the specific Spark job.
 
 <kbd>
-<img src=/images/image8.png />
+<img src=/lab-01/images/image8.png />
 </kbd>
 
 <kbd>
-<img src=/images/image13.png />
+<img src=/lab-01/images/image13.png />
 </kbd>
 
 <br>
@@ -353,11 +353,11 @@ To view the Persistent History server logs, click the 'View History Server' butt
 <br>
 
 <kbd>
-<img src=/images/image17.png />
+<img src=/lab-01/images/image17.png />
 </kbd>
 
 <kbd>
-<img src=/images/image14.png />
+<img src=/lab-01/images/image14.png />
 </kbd>
 
 <br>
