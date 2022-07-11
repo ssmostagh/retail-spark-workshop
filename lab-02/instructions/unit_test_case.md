@@ -37,7 +37,7 @@ gcloud metastore services create $METASTORE_NAME \
 Created Metastore-
 
 <kbd>
-<img src=images/gcloud_metastore_creation.png />
+<img src=/lab-02.images/gcloud_metastore_creation.png />
 </kbd>
 
 <br>
@@ -48,12 +48,12 @@ Created Metastore-
 Created metastore with the following configurations-
 
 <kbd>
-<img src=images/meta1.PNG />
+<img src=/lab-02/images/meta1.PNG />
 </kbd>
 
 <br>
 <kbd>
-<img src=images/meta2.PNG />
+<img src=/lab-02/images/meta2.PNG />
 </kbd>
 
 <br>
@@ -70,7 +70,7 @@ Step-1
 <br>
 
 <kbd>
-<img src=images/meta1.PNG />
+<img src=/lab-02/images/meta1.PNG />
 </kbd>
 
 <br>
@@ -78,7 +78,7 @@ Step-2
 <br>
 
 <kbd>
-<img src=images/p1.PNG />
+<img src=/lab-02/images/p1.PNG />
 </kbd>
 
 <br>
@@ -99,7 +99,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/pysparkcomposer1.PNG />
+<img src=/lab-02/images/pysparkcomposer1.PNG />
 </kbd>
 
 <br>
@@ -126,7 +126,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/pysparkcomposer2.PNG />
+<img src=/lab-02/images/pysparkcomposer2.PNG />
 </kbd>
 
 <br>
@@ -269,7 +269,7 @@ print('Job Completed Successfully!')
 
 ```
 
-![this is a screenshot](/images/bq2.png)
+![this is a screenshot](/lab-02/images/bq2.png)
 
 <br>
 <br>
@@ -280,12 +280,12 @@ Once you submit the job, you will the see the Batches page populate with the cur
 
 BatchID - **bqui-python-0-1653914858363**
 
-![this is a screenshot](/images/batchoutput.PNG)
+![this is a screenshot](/lab-02/images/batchoutput.PNG)
 <br>
 <br>
 
 The same details are found on the BigQuery Output section as well.
 
-![this is a screenshot](/images/pysparkoutput.PNG)
+![this is a screenshot](/lab-02/images/pysparkoutput.PNG)
 
 <br>
