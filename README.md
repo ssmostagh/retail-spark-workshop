@@ -1,4 +1,4 @@
-# Serverless Spark CE Workshop - May 2022
+# Serverless Spark Retail Workshop - July 2022
 
 This repo contains hands-on-labs that cover serverless Spark on GCP powered by Cloud Dataproc, as part of the [Serverless Spark Workshop]
 
