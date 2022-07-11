@@ -1,0 +1,9 @@
+{
+    "code_bucket": "s8s_data_and_code_bucket-778666581886",
+    "phs": "s8s-sphs-778666581886-m",
+    "project_id": "mostaghim-495-2022070118081500",
+    "region": "us-central1",
+    "subnet": "spark-snet",
+    "bq_dataset": "customer-churn",
+    "umsa": "serverless-spark"
+}
