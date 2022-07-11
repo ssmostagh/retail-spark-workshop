@@ -44,7 +44,7 @@ The dataset used for this project are [customer churn data](01-datasets/customer
 ## 2. Solution Diagram
 
 <kbd>
-<img src=images/Flow_of_Resources.jpeg />
+<img src=/lab-01/images/Flow_of_Resources.jpeg />
 </kbd>
 
 <br>
@@ -71,7 +71,7 @@ The model pipeline involves the following steps: <br>
 * Next, upload the DAG file to the GCS bucket corresponding to the **DAGs folder URI**
 
 <kbd>
-<img src=/images/composer_2.png />
+<img src=/lab-01/images/composer_2.png />
 </kbd>
 
 <br>
@@ -79,7 +79,7 @@ The model pipeline involves the following steps: <br>
 <br>
 
 <kbd>
-<img src=/images/composer_3.png />
+<img src=/lab-01/images/composer_3.png />
 </kbd>
 
 <br>
@@ -92,7 +92,7 @@ The model pipeline involves the following steps: <br>
 * Navigate to **Composer**>**<your_environment>**>**Open Airflow UI**
 
 <kbd>
-<img src=/images/composer_5.png />
+<img src=/lab-01/images/composer_5.png />
 </kbd>
 
 <br>
@@ -101,7 +101,7 @@ The model pipeline involves the following steps: <br>
 * Next, trigger your DAG by clicking on the **Trigger DAG** button
 
 <kbd>
-<img src=/images/composer_6.png />
+<img src=/lab-01/images/composer_6.png />
 </kbd>
 
 <br>
@@ -109,7 +109,7 @@ The model pipeline involves the following steps: <br>
 * Once the DAG is triggered, the DAG can be monitored directly through the Airflow UI as well as the Dataproc>Serverless>Batches window
 
 <kbd>
-<img src=/images/composer_7.PNG />
+<img src=/lab-01/images/composer_7.PNG />
 </kbd>
 
 <br>
@@ -128,7 +128,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -146,13 +146,13 @@ SELECT * FROM `<project_name>.<dataset_name>.<your_name_here>_test_output` LIMIT
 
 
 <kbd>
-<img src=images/image5.png />
+<img src=/lab-01/images/image5.png />
 </kbd>
 
 <br>
 
 <kbd>
-<img src=/images/_test_data.png />
+<img src=/lab-01/images/_test_data.png />
 </kbd>
 
 
@@ -169,7 +169,7 @@ SELECT * FROM `<project_name>.<dataset_name>.<your_name_here>_test_output` LIMIT
 * To view the logs of any step of the DAG execution, click on the **<DAG step>**>**Log** button <br>
 
 <kbd>
-<img src=/images/composer_8.png />
+<img src=/lab-01/images/composer_8.png />
 </kbd>
 
 <br>
@@ -181,11 +181,11 @@ Logs associated with the application can be found in the logging console under
 <br> You can also click on “View Logs” button on the Dataproc batches monitoring page to get to the logging page for the specific Spark job.
 
 <kbd>
-<img src=/images/image10.png />
+<img src=/lab-01/images/image10.png />
 </kbd>
 
 <kbd>
-<img src=/images/image11.png />
+<img src=/lab-01/images/image11.png />
 </kbd>
 
 <br>
@@ -197,11 +197,11 @@ To view the Persistent History server logs, click the 'View History Server' butt
 <br>
 
 <kbd>
-<img src=/images/image12.png />
+<img src=/lab-01/images/image12.png />
 </kbd>
 
 <kbd>
-<img src=/images/image13.png />
+<img src=/lab-01/images/image13.png />
 </kbd>
 
 <br>
