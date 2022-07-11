@@ -38,7 +38,7 @@ The datasets used for this project are
 
 
 <kbd>
-<img src=images/Flow_of_Resources.png />
+<img src=/lab-03/images/Flow_of_Resources.png />
 </kbd>
 
 <br>
@@ -119,13 +119,13 @@ Run the below on cloud shell to create session. -
 <br>
 
 <kbd>
-<img src=/images/sessions1.png />
+<img src=/lab-03/images/sessions1.png />
 </kbd>
 <br>
 <br>
 
 <kbd>
-<img src=/images/sessions2.png />
+<img src=/lab-03/images/sessions2.png />
 </kbd>
 <br>
 <br>
@@ -134,7 +134,7 @@ Run the below on cloud shell to create session. -
 
 <br>
 <kbd>
-<img src=/images/sessions3.png />
+<img src=/lab-03/images/sessions3.png />
 </kbd>
 <br>
 <br>
@@ -143,7 +143,7 @@ Run the below on cloud shell to create session. -
 
 <br>
 <kbd>
-<img src=/images/sessions4.png />
+<img src=/lab-03/images/sessions4.png />
 </kbd>
 <br>
 <br>
@@ -153,7 +153,7 @@ Run the below on cloud shell to create session. -
 <br>
 <br>
 <kbd>
-<img src=/images/sessions5.png />
+<img src=/lab-03/images/sessions5.png />
 </kbd>
 <br>
 
@@ -173,7 +173,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-03/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -191,7 +191,7 @@ To view the data in these tables -
 **Note:** Edit all occurrences of <project_name> and <dataset_name> to match the values of the variables PROJECT_ID, and BQ_DATASET_NAME respectively
 
 <kbd>
-<img src=/images/image1.png />
+<img src=/lab-03/images/image1.png />
 </kbd>
 
 <br>
@@ -208,15 +208,15 @@ As the session is still in active state , we will be able to find the logs in sh
 <br>
 
 <kbd>
-<img src=/images/phs1.png />
+<img src=/lab-03/images/phs1.png />
 </kbd>
 
 <kbd>
-<img src=/images/image13_1.PNG />
+<img src=/lab-03/images/image13_1.PNG />
 </kbd>
 
 <kbd>
-<img src=/images/image13.PNG />
+<img src=/lab-03/images/image13.PNG />
 </kbd>
 
 <br>
