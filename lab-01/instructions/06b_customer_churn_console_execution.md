@@ -43,7 +43,7 @@ The dataset contains the following features:
 ## 2. Solution Architecture
 
 <kbd>
-<img src=/images/Flow_of_Resources.jpeg />
+<img src=/lab-01/images/Flow_of_Resources.jpeg />
 </kbd>
 
 <br>
