@@ -1,9 +1,0 @@
-{
-    "code_bucket": "your-code-bucket",
-    "phs": "persistent-history-spark-server",
-    "project_id": "your-project-id",
-    "region": "your-region",
-    "subnet": "your-subnet",
-    "bq_dataset": "your-bq-dataset-name",
-    "umsa": "your-umsa"
-}
