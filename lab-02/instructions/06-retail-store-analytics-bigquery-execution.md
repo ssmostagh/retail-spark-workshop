@@ -36,7 +36,7 @@ The datasets used for this project are
 ## 2. Solution Architecture
 
 <kbd>
-<img src= images/Flow_of_Resources.png>
+<img src= /lab-02/images/Flow_of_Resources.png>
 </kbd>
 
 <br>
@@ -109,7 +109,7 @@ Open BigQuery Console
 
 Click on the the dropdown to "Compose new query" and click on **"Compose new PySpark"**
     
-![this is a screenshot](/images/bq_pyspark_console.png)
+![this is a screenshot](/lab-02/images/bq_pyspark_console.png)
 
 <br>
 
@@ -122,7 +122,7 @@ How to reach to configure a Serverless Spark job
 Step-1
 <br>
 <kbd>
-<img src=images/part1.PNG />
+<img src=/lab-02/images/part1.PNG />
 </kbd>
 <br>
 
@@ -130,7 +130,7 @@ Step-2
 <br>
 
 <kbd>
-<img src=images/p1.PNG />
+<img src=/lab-02/images/p1.PNG />
 </kbd>
 
 <br>
@@ -148,7 +148,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/pyspark-session-part1.PNG />
+<img src=/lab-02/images/pyspark-session-part1.PNG />
 </kbd>
 
 <br>
@@ -156,7 +156,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/part2.PNG />
+<img src=/lab-02/images/part2.PNG />
 </kbd>
 
 <br>
@@ -180,7 +180,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/part3.png />
+<img src=/lab-02/images/part3.png />
 </kbd>
 
 <br>
@@ -188,7 +188,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/part6.PNG />
+<img src=/lab-02/images/part6.PNG />
 </kbd>
 
 <br>
@@ -196,7 +196,7 @@ Next, fill in the following values in the PySpark creation window :
 <br>
 
 <kbd>
-<img src=images/part5.png />
+<img src=/lab-02/images/part5.png />
 </kbd>
 
 <br>
@@ -208,7 +208,7 @@ Copy the code 00-scripts/retail-store-analytics-bigquery.py in to the big query 
 Next, hit the Run button as shown .
 
 
-![this is a screenshot](/images/bq2.png)
+![this is a screenshot](/lab-02/images/bq2.png)
 
 <br>
 <br>
@@ -219,13 +219,13 @@ Once you submit the job, you will the see the Batches page populate with the cur
 
 To navigate, click on **Last Batch Run**, which will open the page with the batch details and you can monitor the execution and output.
 
-![this is a screenshot](/images/bq3.png)
+![this is a screenshot](/lab-02/images/bq3.png)
 <br>
 <br>
 
 The same details are found on the BigQuery Output section as well.
 
-![this is a screenshot](/images/bq4.JPG)
+![this is a screenshot](/lab-02/images/bq4.JPG)
 
 <br>
 <br>
@@ -241,7 +241,7 @@ Once the Serverless batches execution is completed, a new new table '<your_name_
 <br>
 
 <kbd>
-<img src=images/bigqueryretail1.png />
+<img src=/lab-02/images/bigqueryretail1.png />
 </kbd>
 
 <br>
@@ -254,7 +254,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_preview.png />
+<img src=/lab-02/images/bq_preview.png />
 </kbd>
 
 <br>
@@ -269,7 +269,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=images/bq_3.PNG />
+<img src=/lab-02/images/bq_3.PNG />
 </kbd>
 
 <br>
@@ -287,11 +287,11 @@ Logs associated with the application can be found in the logging console under
 <br> You can also click on “View Logs” button on the Dataproc batches monitoring page to get to the logging page for the specific Spark job.
 
 <kbd>
-<img src=/images/image10.png />
+<img src=/lab-02/images/image10.png />
 </kbd>
 
 <kbd>
-<img src=/images/image11.png />
+<img src=/lab-02/images/image11.png />
 </kbd>
 
 <br>
@@ -303,11 +303,11 @@ To view the Persistent History server logs, click the 'View History Server' butt
 <br>
 
 <kbd>
-<img src=/images/image12.png />
+<img src=/lab-02/images/image12.png />
 </kbd>
 
 <kbd>
-<img src=/images/image13.png />
+<img src=/lab-02/images/image13.png />
 </kbd>
 
 <br>
@@ -319,11 +319,11 @@ To view the metastore logs, click the 'View Logs' button on the metastore page a
 <br>
 
 <kbd>
-<img src=/images/meta_logs01.png />
+<img src=/lab-02/images/meta_logs01.png />
 </kbd>
 
 <kbd>
-<img src=/images/meta_logs02.png />
+<img src=/lab-02/images/meta_logs02.png />
 </kbd>
 
 <br>
