@@ -1,86 +1,34 @@
-# Customer churn rate prediction using ML in serverless spark
+# Serverless Spark CE Workshop - May 2022
 
-## Overview
+This repo contains hands-on-labs that cover serverless Spark on GCP powered by Cloud Dataproc, as part of the [Serverless Spark Workshop]
 
+### Audience
+The intended audience is Google Customer Engineers in Retail but anyone with access to GCP can try the lab modules just as well.
 
-With the advent of cloud environments, the concept of huge capital investments in infrastructure in terms of capital and maintenance is a thing of the past. Even when it comes to provisioning infrastructure on cloud services, it can get tedious and cumbersome.
+### Prerequisites
+Run the setup in Argolis per instructions in [go/scw-tf]
 
-In this example, you will look at executing a simple PySpark code which runs on Serverless batch (a fully managed Dataproc cluster). It is similar to executing code on a Dataproc cluster without the need to initialize, deploy or manage the underlying infrastructure.
+### Goal
+(a) Just enough knowledge of serverless Spark on GCP powered by Cloud Dataproc to field customer conversations & questions, <br>(b) completed setup in Argolis for serverless Spark,<br> (c) demos and knowledge of how to run them and <br>(d) awareness of resources available for serverless Spark on GCP.
 
-This usecase is used to check customer churn rate prediction using ML in Serverless spark.
+### What is covered?
+| # | Modules | Focus | Feature |
+| -- | :--- | :-- | :-- |
+| 1 | Environment provisioning (go/scw-tf) | Environment Automation With Terraform | N/A |
+| 2 | [Lab 1 - Cell Tower Anomaly Detection](lab-01/README.md) | Data Engineering | Serverless Spark Batch from CLI & with Cloud Composer orchestration|
+| 3 | [Lab 2 - Wikipedia Page View Analysis](lab-02/README.md) | Data Analysis | Serverless Spark Batch from BigQuery UI |
+| 4 | [Lab 3 - Chicago Crimes Analysis](lab-03/README.md) | Data Analysis | Serverless Spark Interactive from Vertex AI managed notebook|
+| N | [Resources for Serverless Spark](https://spark.apache.org/docs/latest/) |
 
+### Dont forget to 
+Shut down/delete resources when done
 
-
-## Services Used
-* Google Cloud Storage
-* Google Cloud Dataproc
-* Google Cloud Bigquery
-* Google Cloud Composer
-
-
-## 3. Permissions / IAM Roles required to run the lab
-
-Following permissions / roles are required to execute the serverless batch
-
-- Viewer
-- Dataproc Editor
-- BigQuery Data Editor
-- Service Account User
-- Storage Admin
-- Environment User and Storage Object Viewer
-
-<br>
-
-## 4. Checklist
-
-To perform the lab, below are the list of activities to perform. <br>
-
-[1. GCP Prerequisites](instructions/01-gcp-prerequisites.md)<br>
-[2. Spark History Server Setup](instructions/02-persistent-history-server.md)<br>
-[3. Uploading scripts and datasets to GCP](instructions/03-files-upload.md)<br>
-[4. Creating a Composer Environment](instructions/04-composer.md)<br>
-[5. Creating a BigQuery Dataset](instructions/05-create-bigquery-dataset.md)<br>
-
-Note down the values for below variables to get started with the lab:
-
-```
-PROJECT_ID=                                         #Current GCP project where we are building our use case
-REGION=                                             #GCP region where all our resources will be created
-SUBNET=                                             #subnet which has private google access enabled
-BQ_DATASET_NAME=                                    #BigQuery dataset where all the tables will be stored
-BUCKET_CODE=                                        #GCP bucket where our code, data and model files will be stored
-BUCKET_PHS=                                         #bucket where our application logs created in the history server will be stored
-HISTORY_SERVER_NAME=                                #name of the history server which will store our application logs
-UMSA=                                               #user managed service account required for the PySpark job executions
-SERVICE_ACCOUNT=$UMSA@$PROJECT_ID.iam.gserviceaccount.com
-NAME=<your_name_here>                               #Your Unique Identifier
-```
-<br>
+### Credits
+Some of the labs are contributed by partners, to Google Cloud, or are contributions from Googlers.<br>
+Lab 1 - TekSystems<br>
+Lab 2 - TekSystems<br>
 
 
-## 5. Lab Modules
+### Contributions welcome
 
-The lab consists of the following modules.
-
-1. Understand the Data
-2. Solution Architecture
-3. Data Preparation
-4. Model Training and Evaluation
-5. Examine the logs
-6. Explore the output
-
-There are 3 ways of perforing the lab.
-- Using [Google Cloud Shell](instructions/06a_customer_churn_gcloud_execution.md)
-- Using [GCP console](instructions/06b_customer_churn_console_execution.md)
-- Using [Cloud Composer](instructions/06c_customer_churn_airflow_execution.md )
-
-Please chose one of the methods to execute the lab.
-
-<br>
-
-## 6. CleanUp
-
-Delete the resources after finishing the lab. <br>
-Refer - [Cleanup](instructions/07-cleanup.md )
-
-<br>
+Community contribution to improve the labs or new labs are very much appreciated.
