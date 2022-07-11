@@ -44,7 +44,7 @@ The dataset contains the following features:
 ## 2. Solution Architecture
 
 <kbd>
-<img src=retail-spark-workshop/lab-01/images/Flow_of_Resources.jpeg />
+<img src=/images/Flow_of_Resources.jpeg />
 </kbd>
 
 <br>
@@ -142,7 +142,7 @@ To view the data in these tables -
 <br>
 
 <kbd>
-<img src=retail-spark-workshop/lab-01/images/bq_preview.png />
+<img src=/retail-spark-workshop/lab-01/images/bq_preview.png />
 </kbd>
 
 <br>
