@@ -114,6 +114,7 @@ Next, fill in the following values in the environment creation window :
 
 - Next under **Web Server Network Access Control** select one of the below options: <br>
 **Allow access only from specific IP addresses** and add all IP addresses which should have access to the Airflow UI
+
 **Allow access from all IP addresses**
 
 - Next, click on **Create** to create the environment
