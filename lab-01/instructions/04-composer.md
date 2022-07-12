@@ -113,7 +113,7 @@ Next, fill in the following values in the environment creation window :
 - **Network Configuration** - select the network and subnetwork with Private Google Access Enabled
 
 - Next under **Web Server Network Access Control** select one of the below options: <br>
-**Allow access only from specific IP addresses** and add all IP addresses which should have access to the Airflow UI 
+**Allow access only from specific IP addresses** and add all IP addresses which should have access to the Airflow UI  OR  
 **Allow access from all IP addresses**
 
 - Next, click on **Create** to create the environment
